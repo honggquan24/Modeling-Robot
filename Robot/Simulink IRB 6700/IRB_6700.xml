@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/07/24||23:13:29" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.0.0"/>
+<ModelUnits mass="kilogram" length="meter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="IRB_6700" uid="IRB_6700" version="1768">
+<AssemblyFile name="IRB_6700.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="ROD_CAD-1" uid="ROD_CAD-1" entityUid="ROD_CAD*:*Default">
+<Transform>
+<Rotation>0.9990271849266098 0.036509726654255753 0.024733047471863834 -0.036498543105066214 0.99933329768382662 -0.00090359923422694908 -0.02474954805287494 1.182333608876863e-16 0.99969368302054329</Rotation>
+<Translation>-0.015423689777834424 0.00056349037812883764 -0.0083549000674241463</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK03_CAD-1" uid="LINK03_CAD-1" entityUid="LINK03_CAD*:*Default">
+<Transform>
+<Rotation>0.99887593775426486 0.036509726654257099 -0.030230792830645357 -0.036493017428166429 0.9993332976838265 0.0011044543250455657 0.030250961216554947 -6.1150534103645023e-16 0.99954233494408551</Rotation>
+<Translation>-0.0074486098262200057 0.00027212813716892201 -0.010648470823698018</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK02_CAD-1" uid="LINK02_CAD-1" entityUid="LINK02_CAD*:*Default">
+<Transform>
+<Rotation>0.99784136079896379 0.036509726654254039 -0.0545862486209127 -0.036455220106760791 0.99933329768382673 0.0019942585930542807 0.054622665678636238 -5.6966531231069882e-16 0.99850706777376386</Rotation>
+<Translation>0.043054693727491794 -0.001572963797781453 -0.016314765880708522</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK04_CAD-1" uid="LINK04_CAD-1" entityUid="LINK04_CAD*:*Default">
+<Transform>
+<Rotation>0.99887593775426486 0.035252245320111439 -0.031688170906959745 -0.036493017428166824 0.99855415817283355 -0.039469644978533253 0.0302509612165551 0.040581675613934678 0.99871818194615836</Rotation>
+<Translation>-0.0016577455293638708 0.091878360019687133 -0.0087102576453411736</Translation>
+</Transform>
+</Instance>
+<Instance name="BASE_CAD-2" uid="BASE_CAD-2" grounded="true" entityUid="BASE_CAD*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK01_CAD-2" uid="LINK01_CAD-2" entityUid="LINK01_CAD*:*Default">
+<Transform>
+<Rotation>0.99933329768382662 0.036509726654255822 4.1788084723763112e-16 -0.036509726654255822 0.99933329768382662 6.278840607864968e-16 -3.9467836967901401e-16 -6.427221645355773e-16 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="CYLINDER_CAD-1" uid="CYLINDER_CAD-1" entityUid="CYLINDER_CAD*:*Default">
+<Transform>
+<Rotation>0.99902718492660936 0.036509726654255739 0.02473304747187139 -0.036498543105066228 0.9993332976838265 -0.00090359923422646911 -0.024749548052882469 -6.3778721383175919e-16 0.99969368302054296</Rotation>
+<Translation>-0.01588651763693516 0.00058039937001643828 -0.0084421620258609484</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK05_CAD-1" uid="LINK05_CAD-1" entityUid="LINK05_CAD*:*Default">
+<Transform>
+<Rotation>0.99797341011524143 0.035252245320113194 -0.052975012060844984 -0.037326138322731996 0.99855415817283333 -0.038682716989069624 0.051534765943665559 0.040581675613936052 0.99784632860150202</Rotation>
+<Translation>0.048176599588049533 0.091693246474356005 -0.047445145627016648</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK06_CAD-1" uid="LINK06_CAD-1" entityUid="LINK06_CAD*:*Default">
+<Transform>
+<Rotation>0.99797341011524177 0.053036894864736027 0.035159074021690689 -0.037326138322730455 0.040437866023263776 0.99848462100795388 0.051534765943663491 -0.99777345463516487 0.042335577526949053</Rotation>
+<Translation>-0.15100643495847765 -2.2523049373989483 2.1120091518014656</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE_CAD-2</Uid>
+</InstancePath>
+<Position>-0.17129197164394902 0.055308773719262003 0.3735</Position>
+<Axis>1.1885768178284379e-16 -3.5298595101224504e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK01_CAD-2</Uid>
+</InstancePath>
+<Position>0 -1.3040682800579103e-15 0.3735</Position>
+<Axis>0 3.4914813388431361e-15 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE_CAD-2</Uid>
+</InstancePath>
+<Position>0 -8.5454106117865501e-16 0.25</Position>
+<Axis>1.1885768178284438e-16 -3.5298595101224504e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>LINK01_CAD-2</Uid>
+</InstancePath>
+<Position>0 -1.1510411225343883e-15 0.32967128013228153</Position>
+<Axis>0 -3.4914813388431361e-15 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK01_CAD-2</Uid>
+</InstancePath>
+<Position>0.32000000000000006 -0.14000000000000323 0.92900000000000005</Position>
+<Axis>0 -1.0000000000000002 -3.4914813388431349e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK02_CAD-1</Uid>
+</InstancePath>
+<Position>0.32000000000000006 -0.14000000000000265 0.7799999999999998</Position>
+<Axis>0 1.0000000000000002 3.4912131503029147e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK01_CAD-2</Uid>
+</InstancePath>
+<Position>0.32000000000000001 -0.14000000000000262 0.78000000000000003</Position>
+<Axis>0 1.0000000000000002 3.4914813388431349e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK02_CAD-1</Uid>
+</InstancePath>
+<Position>0.32000000000000006 0.04385060405108606 0.7799999999999998</Position>
+<Axis>0 -1.0000000000000002 -3.4912131503029147e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK02_CAD-1</Uid>
+</InstancePath>
+<Position>0.32000000000000006 -0.28400000000000747 2.1825000000000001</Position>
+<Axis>0 1.0000000000000002 3.4912131503029147e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK03_CAD-1</Uid>
+</InstancePath>
+<Position>0.30799290030962861 -0.28400000000000747 2.181910129017345</Position>
+<Axis>0 -1 -3.4928875697164829e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK02_CAD-1</Uid>
+</InstancePath>
+<Position>0.32000000000000006 -0.14000000000000723 2.0599999999999996</Position>
+<Axis>0 -1.0000000000000002 -3.4912131503029147e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK03_CAD-1</Uid>
+</InstancePath>
+<Position>0.32000000000000001 -0.28400000000000702 2.0600000000000005</Position>
+<Axis>0 1 3.4928875697164829e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK03_CAD-1</Uid>
+</InstancePath>
+<Position>0.032500000000000029 -7.8865875056971084e-15 2.2599999999999993</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK04_CAD-1</Uid>
+</InstancePath>
+<Position>0.98250000000000004 -8.1185058675714572e-15 2.2599999999999998</Position>
+<Axis>1 0 1.214306433183765e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK03_CAD-1</Uid>
+</InstancePath>
+<Position>0.047500000000000042 -7.8864313041934446e-15 2.2599999999999998</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK04_CAD-1</Uid>
+</InstancePath>
+<Position>0.044999999999999984 -8.5487172896137054e-15 2.3399519237886448</Position>
+<Axis>-1 0 -1.214306433183765e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK01_CAD-2</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000002 0</Position>
+<Axis>0 -1.0000000000000002 -3.4914813388431349e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CYLINDER_CAD-1</Uid>
+</InstancePath>
+<Position>-0.34900000000168951 -0.008000000000002231 0.63799999998848189</Position>
+<Axis>0 1.0000000000000002 3.4915385196188755e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK01_CAD-2</Uid>
+</InstancePath>
+<Position>-0.34900000000000009 -0.30006601717798459 0.63800000000000001</Position>
+<Axis>0 -1.0000000000000002 -3.4914813388431349e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CYLINDER_CAD-1</Uid>
+</InstancePath>
+<Position>-0.34900000000168951 -0.008000000000002231 0.63799999998848189</Position>
+<Axis>0 -1.0000000000000002 -3.4915385196188755e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CYLINDER_CAD-1</Uid>
+</InstancePath>
+<Position>-0.44888057242620455 -0.19399999999999998 0.61681320416393681</Position>
+<Axis>-0.97823410972572689 7.205454357846603e-16 -0.20750428084527492</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROD_CAD-1</Uid>
+</InstancePath>
+<Position>-0.55119919293314235 -0.19400000000000805 0.59510830171502893</Position>
+<Axis>0.97823410972572866 -5.8895878059419906e-16 0.20750428084526751</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK02_CAD-1</Uid>
+</InstancePath>
+<Position>0.11126330200340603 -0.22150000000000256 0.73563164517948876</Position>
+<Axis>0 1.0000000000000002 3.4912131503029147e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ROD_CAD-1</Uid>
+</InstancePath>
+<Position>0.11126000000000004 -0.22150000000000253 0.73563000000000001</Position>
+<Axis>0 -1.0000000000000002 -3.6505651419575952e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>LINK02_CAD-1</Uid>
+</InstancePath>
+<Position>0.11126330200340603 -0.22150000000000256 0.73563164517948876</Position>
+<Axis>0 1.0000000000000002 3.4912131503029147e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ROD_CAD-1</Uid>
+</InstancePath>
+<Position>0.11126000000000004 -0.22150000000000253 0.73563000000000001</Position>
+<Axis>0 -1.0000000000000002 -3.6505651419575952e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK04_CAD-1</Uid>
+</InstancePath>
+<Position>1.9097936867920453 -0.095000000000008314 2.2948952126920048</Position>
+<Axis>0 1 3.4416913763379853e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK05_CAD-1</Uid>
+</InstancePath>
+<Position>1.8544999999999996 -0.095000000000007814 2.2599999999999993</Position>
+<Axis>3.7365943672540425e-15 -1 -3.4416913763379853e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK04_CAD-1</Uid>
+</InstancePath>
+<Position>1.9125000000000003 -0.095000000000008342 2.2600000000000002</Position>
+<Axis>0 -1 -3.4416913763379853e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK05_CAD-1</Uid>
+</InstancePath>
+<Position>1.9124999999999999 -7.6466610821057657e-15 2.2599999999999993</Position>
+<Axis>3.7365943672540425e-15 -1 -3.4416913763379853e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK05_CAD-1</Uid>
+</InstancePath>
+<Position>2.0775000000000006 -7.6466610821057657e-15 2.2364999999999995</Position>
+<Axis>1 0 -1.3183898417423734e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK06_CAD-1</Uid>
+</InstancePath>
+<Position>2.077500000000001 -7.1054273576010019e-15 2.2950000000000004</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK05_CAD-1</Uid>
+</InstancePath>
+<Position>2.0760000000000001 -7.6327832942979512e-15 2.2599999999999993</Position>
+<Axis>-1 0 1.3183898417423734e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>LINK06_CAD-1</Uid>
+</InstancePath>
+<Position>2.076000000000001 -7.1054273576010019e-15 2.2600000000000007</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="BASE_CAD" uid="BASE_CAD*:*Default" version="172">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BASE_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>118.18231962087131</Mass>
+<CenterOfMass>-0.10815264927317653 3.9762192019251075e-05 0.13965830622146777</CenterOfMass>
+<Inertia>4.0194552044226084 7.7785719167428091 9.9126782645564084 -4.6168416950130694e-05 -0.35992579494492366 -0.0041047686680908465</Inertia>
+</MassProperties>
+<GeometryFile name="BASE_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CYLINDER_CAD" uid="CYLINDER_CAD*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CYLINDER_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>49.48208764370446</Mass>
+<CenterOfMass>-0.25237224794723551 -0.19399746181122873 0.65856171275773467</CenterOfMass>
+<Inertia>0.772484363872457 1.6101632762963551 1.5815233549084069 2.653253732935209e-06 -0.17968358064574436 1.2124533821404918e-05</Inertia>
+</MassProperties>
+<GeometryFile name="CYLINDER_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LINK01_CAD" uid="LINK01_CAD*:*Default" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LINK01_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>70.735766660956259</Mass>
+<CenterOfMass>0.15773258615296518 0.024700203407990388 0.61722949198599042</CenterOfMass>
+<Inertia>3.5459124397999737 5.6057928491841338 4.8131575024336692 -0.19098796239874577 -1.5407304038865743 -0.56965022537694765</Inertia>
+</MassProperties>
+<GeometryFile name="LINK01_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LINK02_CAD" uid="LINK02_CAD*:*Default" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LINK02_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>74.906016198063952</Mass>
+<CenterOfMass>0.36498009434333317 -0.27306078816498702 1.391595799516141</CenterOfMass>
+<Inertia>9.4684134884679256 9.7724517756494151 1.0351882409577833 0.84176111386130337 0.3040385371017818 0.0046210984850206171</Inertia>
+</MassProperties>
+<GeometryFile name="LINK02_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LINK03_CAD" uid="LINK03_CAD*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LINK03_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>56.091835261068177</Mass>
+<CenterOfMass>0.26459055840939705 0.0049902326059689849 2.1764754218453137</CenterOfMass>
+<Inertia>2.3307816167160844 1.7889123911467946 2.437194627944657 -0.41863776020462434 0.24891929709336511 0.35280669860984976</Inertia>
+</MassProperties>
+<GeometryFile name="LINK03_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LINK04_CAD" uid="LINK04_CAD*:*Default" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LINK04_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>70.746865546811478</Mass>
+<CenterOfMass>1.2196565632008938 -0.0095523703017493713 2.2600061175665211</CenterOfMass>
+<Inertia>0.80431680163328489 21.503770930604418 21.866209167731945 0.00015377988870336518 -0.0006147142869391501 0.41619138254833021</Inertia>
+</MassProperties>
+<GeometryFile name="LINK04_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LINK05_CAD" uid="LINK05_CAD*:*Default" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LINK05_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.6065906997852784</Mass>
+<CenterOfMass>1.9286339992157508 0.0034440627623739733 2.2583767574233931</CenterOfMass>
+<Inertia>0.031480488146073786 0.075348838232725673 0.080625505391505925 0.00049498584264545773 0.0012020679426695124 0.0019255220138920863</Inertia>
+</MassProperties>
+<GeometryFile name="LINK05_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LINK06_CAD" uid="LINK06_CAD*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LINK06_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.79100875372190238</Mass>
+<CenterOfMass>2.0932677243546221 -7.6392617822601208e-05 2.2600767030807298</CenterOfMass>
+<Inertia>0.0044777038176280724 0.0023222209569484188 0.0023225215056617908 -4.1132007228713434e-06 4.3352842398166183e-07 -2.1921468210093052e-07</Inertia>
+</MassProperties>
+<GeometryFile name="LINK06_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ROD_CAD" uid="ROD_CAD*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ROD_CAD.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6240569530523055</Mass>
+<CenterOfMass>-0.11169248741318162 -0.19404148703664723 0.68833616856238899</CenterOfMass>
+<Inertia>0.0038342918757723085 0.069896460247682812 0.06661681365564083 3.1855886993731089e-06 -0.013944632137150508 1.5019807728692118e-05</Inertia>
+</MassProperties>
+<GeometryFile name="ROD_CAD_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
